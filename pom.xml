@@ -9,16 +9,15 @@
   	<module>haw-fo</module>
   	<module>haw-bo</module>
   </modules>
-  
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>kr.re.hep</groupId>
-				<artifactId>haw-common</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
-				<type>jar</type>
-				<scope>compile</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+		<groupId>kr.re.hep</groupId>
+		<artifactId>haw-common</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<type>jar</type>
+		<scope>compile</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
