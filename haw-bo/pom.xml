@@ -5,5 +5,12 @@
     <artifactId>haw</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>haw-common</artifactId>
+  <artifactId>haw-bo</artifactId>
+  <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>kr.re.hep</groupId>
+  		<artifactId>haw-common</artifactId>
+  	</dependency>
+  </dependencies>
 </project>
